@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: nginx
+  bash:
+    image: alpine
+    tty: true
+    stdin_open: true
