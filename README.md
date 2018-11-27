@@ -1,6 +1,8 @@
 # docker-network
 
-This example shows that a container can have access to another container within its network even when no port is exposed. But the host doesn't have access to this port
+This example shows that a container can have access to another container within its network even when no port is exposed. But the host doesn't have access to this port.
+
+By default, every containers within the same compose file are in the same network `<folder of the docker-compose.yml>_default`.
 
 ```
 $ docker-compose up
